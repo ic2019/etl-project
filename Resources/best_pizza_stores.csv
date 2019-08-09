@@ -1,52 +1,51 @@
 ,best_resaurant,city,state
-0,Alabama, Bottega Café (Birmingham),Alabama
-1,Alaska, Moose’s Tooth Pub and Pizzeria (Anchorage),Alaska
-2,Arizona, Pizzeria Bianco (Phoenix),Arizona
-3,Arkansas, Wood Stone Craft Pizza & Bar (Fayetteville),Arkansas
-4,California, Tony’s Pizza Napoletana (San Francisco),California
-5,Colorado, Pizzeria Locale (Denver),Colorado
-6,Connecticut, Frank Pepe Pizzeria Napoletana (New Haven),Connecticut
-7,Delaware, The Wood Fired Pizza Shop (Newark),Delaware
-8,Florida, Scuola Vecchia Pizza e Vino (Delray Beach),Florida
-9,Georgia, O4W Pizza (Duluth),Georgia
-10,Hawaii, J.J. Dolan’s (Honolulu),Hawaii
-11,Idaho, Guido’s Original New York Style Pizza (Boise),Idaho
-12,Illinois, Pequod’s (Chicago),Illinois
-13,Indiana, Diavola (Indianapolis),Indiana
-14,Iowa, Gusto Pizza Co. (Des Moines),Iowa
-15,Kansas, AJ’s NY Pizzeria (Topeka),Kansas
-16,Kentucky, Garage Bar (Louisville),Kentucky
-17,Louisiana, Pizza Domenica (New Orleans),Louisiana
-18,Maine, Micucci Grocery Store (Portland),Maine
-19,Maryland, Inferno (Darnestown),Maryland
-20,Massachusetts, Area Four (Cambridge),Massachusetts
-21,Michigan, Buddy’s Pizza (Detroit),Michigan
-22,Minnesota, Pizzeria Lola (Minneapolis),Minnesota
-23,Mississippi, TriBecca Allie Café (Sardis),Mississippi
-24,Missouri, Imo’s (St. Louis),Missouri
-25,Montana, Eugene’s (Glasgow),Montana
-26,Nebraska, Zio’s (Omaha),Nebraska
-27,Nevada, Pizza Rock (Las Vegas),Nevada
-28,New Hampshire, Tilton House of Pizza (Tilton),New Hampshire
-29,New Jersey, Razza (Jersey City),New Jersey
-30,New Mexico, Il Vicino Wood Oven Pizza (Albuquerque),New Mexico
-31,New York, John’s of Bleecker Street (New York City),New York
-32,North Carolina, Pizzeria Omaggio (Charlotte),North Carolina
-33,North Dakota, Blackbird Woodfire (Fargo),North Dakota
-34,Ohio, Crust (Cleveland),Ohio
-35,Oklahoma, Empire Slice House (Oklahoma City),Oklahoma
-36,Oregon, Ken’s Artisan Pizza (Portland),Oregon
-37,Pennsylvania, Pizzeria Vetri (Philadelphia),Pennsylvania
-38,Rhode Island, Al Forno (Providence),Rhode Island
-39,South Carolina, Monza Pizza (Charleston),South Carolina
-40,South Dakota, Thatzza Pizza (Aberdeen),South Dakota
-41,Tennessee, Hog & Hominy (Memphis),Tennessee
-42,Texas, Home Slice Pizza (Austin),Texas
-43,Utah, Settebello (Salt Lake City),Utah
-44,Vermont, Pizzeria Verita (Burlington),Vermont
-45,Virginia, Pupatella Neapolitan Pizza (Arlington),Virginia
-46,"Washington, D.C.", 2Amys,"Washington, D.C."
-47,Washington, Serious Pie (Seattle),Washington
-48,West Virginia, Lola’s (Charleston),West Virginia
-49,Wisconsin, Zaffiro’s Pizza (Milwaukee),Wisconsin
-50,Wyoming, Bella Fuoco Wood Fired Pizza (Cheyenne),Wyoming
+0, Bottega Café ,Birmingham,Alabama
+1, Moose’s Tooth Pub and Pizzeria ,Anchorage,Alaska
+2, Pizzeria Bianco ,Phoenix,Arizona
+3, Wood Stone Craft Pizza & Bar ,Fayetteville,Arkansas
+4, Tony’s Pizza Napoletana ,San Francisco,California
+5, Pizzeria Locale ,Denver,Colorado
+6, Frank Pepe Pizzeria Napoletana ,New Haven,Connecticut
+7, The Wood Fired Pizza Shop ,Newark,Delaware
+8, Scuola Vecchia Pizza e Vino ,Delray Beach,Florida
+9, O4W Pizza ,Duluth,Georgia
+10, J.J. Dolan’s ,Honolulu,Hawaii
+11, Guido’s Original New York Style Pizza ,Boise,Idaho
+12, Pequod’s ,Chicago,Illinois
+13, Diavola ,Indianapolis,Indiana
+14, Gusto Pizza Co. ,Des Moines,Iowa
+15, AJ’s NY Pizzeria ,Topeka,Kansas
+16, Garage Bar ,Louisville,Kentucky
+17, Pizza Domenica ,New Orleans,Louisiana
+18, Micucci Grocery Store ,Portland,Maine
+19, Inferno ,Darnestown,Maryland
+20, Area Four ,Cambridge,Massachusetts
+21, Buddy’s Pizza ,Detroit,Michigan
+22, Pizzeria Lola ,Minneapolis,Minnesota
+23, TriBecca Allie Café ,Sardis,Mississippi
+24, Imo’s ,St. Louis,Missouri
+25, Eugene’s ,Glasgow,Montana
+26, Zio’s ,Omaha,Nebraska
+27, Pizza Rock ,Las Vegas,Nevada
+28, Tilton House of Pizza ,Tilton,New Hampshire
+29, Razza ,Jersey City,New Jersey
+30, Il Vicino Wood Oven Pizza ,Albuquerque,New Mexico
+31, John’s of Bleecker Street ,New York City,New York
+32, Pizzeria Omaggio ,Charlotte,North Carolina
+33, Blackbird Woodfire ,Fargo,North Dakota
+34, Crust ,Cleveland,Ohio
+35, Empire Slice House ,Oklahoma City,Oklahoma
+36, Ken’s Artisan Pizza ,Portland,Oregon
+37, Pizzeria Vetri ,Philadelphia,Pennsylvania
+38, Al Forno ,Providence,Rhode Island
+39, Monza Pizza ,Charleston,South Carolina
+40, Thatzza Pizza ,Aberdeen,South Dakota
+41, Hog & Hominy ,Memphis,Tennessee
+42, Home Slice Pizza ,Austin,Texas
+43, Settebello ,Salt Lake City,Utah
+44, Pizzeria Verita ,Burlington,Vermont
+45, Pupatella Neapolitan Pizza ,Arlington,Virginia
+46, Serious Pie ,Seattle,Washington
+47, Lola’s ,Charleston,West Virginia
+48, Zaffiro’s Pizza ,Milwaukee,Wisconsin
+49, Bella Fuoco Wood Fired Pizza ,Cheyenne,Wyoming
