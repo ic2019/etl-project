@@ -1,51 +1,51 @@
-,best_resaurant,city,state
-0, Bottega Café ,Birmingham,Alabama
-1, Moose’s Tooth Pub and Pizzeria ,Anchorage,Alaska
-2, Pizzeria Bianco ,Phoenix,Arizona
-3, Wood Stone Craft Pizza & Bar ,Fayetteville,Arkansas
-4, Tony’s Pizza Napoletana ,San Francisco,California
-5, Pizzeria Locale ,Denver,Colorado
-6, Frank Pepe Pizzeria Napoletana ,New Haven,Connecticut
-7, The Wood Fired Pizza Shop ,Newark,Delaware
-8, Scuola Vecchia Pizza e Vino ,Delray Beach,Florida
-9, O4W Pizza ,Duluth,Georgia
-10, J.J. Dolan’s ,Honolulu,Hawaii
-11, Guido’s Original New York Style Pizza ,Boise,Idaho
-12, Pequod’s ,Chicago,Illinois
-13, Diavola ,Indianapolis,Indiana
-14, Gusto Pizza Co. ,Des Moines,Iowa
-15, AJ’s NY Pizzeria ,Topeka,Kansas
-16, Garage Bar ,Louisville,Kentucky
-17, Pizza Domenica ,New Orleans,Louisiana
-18, Micucci Grocery Store ,Portland,Maine
-19, Inferno ,Darnestown,Maryland
-20, Area Four ,Cambridge,Massachusetts
-21, Buddy’s Pizza ,Detroit,Michigan
-22, Pizzeria Lola ,Minneapolis,Minnesota
-23, TriBecca Allie Café ,Sardis,Mississippi
-24, Imo’s ,St. Louis,Missouri
-25, Eugene’s ,Glasgow,Montana
-26, Zio’s ,Omaha,Nebraska
-27, Pizza Rock ,Las Vegas,Nevada
-28, Tilton House of Pizza ,Tilton,New Hampshire
-29, Razza ,Jersey City,New Jersey
-30, Il Vicino Wood Oven Pizza ,Albuquerque,New Mexico
-31, John’s of Bleecker Street ,New York City,New York
-32, Pizzeria Omaggio ,Charlotte,North Carolina
-33, Blackbird Woodfire ,Fargo,North Dakota
-34, Crust ,Cleveland,Ohio
-35, Empire Slice House ,Oklahoma City,Oklahoma
-36, Ken’s Artisan Pizza ,Portland,Oregon
-37, Pizzeria Vetri ,Philadelphia,Pennsylvania
-38, Al Forno ,Providence,Rhode Island
-39, Monza Pizza ,Charleston,South Carolina
-40, Thatzza Pizza ,Aberdeen,South Dakota
-41, Hog & Hominy ,Memphis,Tennessee
-42, Home Slice Pizza ,Austin,Texas
-43, Settebello ,Salt Lake City,Utah
-44, Pizzeria Verita ,Burlington,Vermont
-45, Pupatella Neapolitan Pizza ,Arlington,Virginia
-46, Serious Pie ,Seattle,Washington
-47, Lola’s ,Charleston,West Virginia
-48, Zaffiro’s Pizza ,Milwaukee,Wisconsin
-49, Bella Fuoco Wood Fired Pizza ,Cheyenne,Wyoming
+restaurant_name,city,state
+Bottega Café,Birmingham,Alabama
+Moose’s Tooth Pub and Pizzeria,Anchorage,Alaska
+Pizzeria Bianco,Phoenix,Arizona
+Wood Stone Craft Pizza & Bar,Fayetteville,Arkansas
+Tony’s Pizza Napoletana,San Francisco,California
+Pizzeria Locale,Denver,Colorado
+Frank Pepe Pizzeria Napoletana,New Haven,Connecticut
+The Wood Fired Pizza Shop,Newark,Delaware
+Scuola Vecchia Pizza e Vino,Delray Beach,Florida
+O4W Pizza,Duluth,Georgia
+J.J. Dolan’s,Honolulu,Hawaii
+Guido’s Original New York Style Pizza,Boise,Idaho
+Pequod’s,Chicago,Illinois
+Diavola,Indianapolis,Indiana
+Gusto Pizza Co.,Des Moines,Iowa
+AJ’s NY Pizzeria,Topeka,Kansas
+Garage Bar,Louisville,Kentucky
+Pizza Domenica,New Orleans,Louisiana
+Micucci Grocery Store,Portland,Maine
+Inferno,Darnestown,Maryland
+Area Four,Cambridge,Massachusetts
+Buddy’s Pizza,Detroit,Michigan
+Pizzeria Lola,Minneapolis,Minnesota
+TriBecca Allie Café,Sardis,Mississippi
+Imo’s,St. Louis,Missouri
+Eugene’s,Glasgow,Montana
+Zio’s,Omaha,Nebraska
+Pizza Rock,Las Vegas,Nevada
+Tilton House of Pizza,Tilton,New Hampshire
+Razza,Jersey City,New Jersey
+Il Vicino Wood Oven Pizza,Albuquerque,New Mexico
+John’s of Bleecker Street,New York City,New York
+Pizzeria Omaggio,Charlotte,North Carolina
+Blackbird Woodfire,Fargo,North Dakota
+Crust,Cleveland,Ohio
+Empire Slice House,Oklahoma City,Oklahoma
+Ken’s Artisan Pizza,Portland,Oregon
+Pizzeria Vetri,Philadelphia,Pennsylvania
+Al Forno,Providence,Rhode Island
+Monza Pizza,Charleston,South Carolina
+Thatzza Pizza,Aberdeen,South Dakota
+Hog & Hominy,Memphis,Tennessee
+Home Slice Pizza,Austin,Texas
+Settebello,Salt Lake City,Utah
+Pizzeria Verita,Burlington,Vermont
+Pupatella Neapolitan Pizza,Arlington,Virginia
+Serious Pie,Seattle,Washington
+Lola’s,Charleston,West Virginia
+Zaffiro’s Pizza,Milwaukee,Wisconsin
+Bella Fuoco Wood Fired Pizza,Cheyenne,Wyoming
