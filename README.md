@@ -6,7 +6,7 @@ This is a list of over 3,500 pizzas from multiple restaurants provided by Datafi
 
 In this project, we have explored the data taken from [Kaggle](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell) and have performed Extraction Transformation and Loading using Python pandas.
 
-Original [dataset](./Resources/Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv) from Kaggle had following fields.
+Original [dataset](../Resources/Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv) from Kaggle had following fields.
 ```
 pizza_data_raw.columns
 
@@ -56,7 +56,7 @@ With the objective of answering below questsions, we have performed cleaning  of
  
    Following columns were identified for extraction of data from the original dataset.
    
-   ![meta-data](./Images/meta_data.png)
+   ![meta-data](Images/meta_data.png)
    
  - Additional information like, restaurant name, rating, price_level were extracted from [Google API](https://developers.google.com/places/web-service/details).
  
@@ -69,11 +69,11 @@ With the objective of answering below questsions, we have performed cleaning  of
   - Selected data had NaN values for pizza description (63%). As pizza description was considered an important feature for determining the price of pizza, decided to remove NaN values from whole dataset for those null rows.  
   - Before Cleaning
   
-  !(Before Cleaning)[./Images/info.png]
+  !(Before Cleaning)[Images/info.png]
   
   - After Cleaning.
   
-  !(After Cleaning)[././Images/info-after-nan.png]
+  !(After Cleaning)[Images/info-after-nan.png]
   
   - Capitalized pizza description column
   
@@ -89,11 +89,11 @@ With the objective of answering below questsions, we have performed cleaning  of
   
   - Restaurant - ['id','address', 'postalCode', 'latitude', 'longitude', 'city','province', 'categories']
   
-  - ![restaurant](./Images/restaurant.png)
+  - ![restaurant](Images/restaurant.png)
   
   - Then additional data was collected for every restaurnat usinng it's address, latitude and longitude from Google API Places.
   
-  - ![revised-restaurant](./Images/restaurant-after-api.png)
+  - ![revised-restaurant](Images/restaurant-after-api.png)
 
 #### Pizza
 
@@ -111,13 +111,13 @@ With the objective of answering below questsions, we have performed cleaning  of
 
 ### ERD
 
-  ![pizza-db](./Images/PIZZA_DB.png)
+  ![pizza-db](Images/PIZZA_DB.png)
   
   - In postgreSQL, schema was created for pizza_db database and tables for storing restaurant, pizza and best-pizza-stores data.
 
 ### Schema Creation
 
-  - Here's the [link](./sql/schema.sql] to the all sql for pizza_db creation.
+  - Here's the [link](sql/schema.sql] to the all sql for pizza_db creation.
 
 ### Connecting to DB from Python Pandas
 
@@ -126,5 +126,5 @@ With the objective of answering below questsions, we have performed cleaning  of
 
 ### Verifying the data in PostgreSQL pizza_db.
 
-   - Here's the [link](./sql/query.sql) to all the sql for querying the database for verification.
+   - Here's the [link](sql/query.sql) to all the sql for querying the database for verification.
 
