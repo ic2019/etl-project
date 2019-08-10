@@ -1,6 +1,6 @@
 # Datafinity Pizza Restaurants And The Pizza They Sell.
 
-![pizza](https://nodesource.com/products/nsolid)
+![pizza](Images/pizza.png)
 
 This is a list of over 3,500 pizzas from multiple restaurants provided by Datafiniti's Business Database. The dataset includes the category, name, address, city, state, menu information, price range, and more for each pizza restaurant across all states from USA.
 
