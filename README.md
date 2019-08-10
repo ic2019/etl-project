@@ -117,7 +117,7 @@ With the objective of answering below questsions, we have performed cleaning  of
 
 ### Schema Creation
 
-  - Here's the [link](sql/schema.sql] to the all sql for pizza_db creation.
+  - Here's the [link](sql/schema.sql) to the all sql for pizza_db creation.
 
 ### Connecting to DB from Python Pandas
 
