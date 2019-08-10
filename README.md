@@ -2,63 +2,55 @@
 
 ![pizza](Images/pizza.png)
 
-This is a list of over 3,500 pizzas from multiple restaurants provided by Datafiniti's Business Database. The dataset includes the category, name, address, city, state, menu information, price range, and more for each pizza restaurant across all states from USA.
+This is a list of over 3,500 pizzas from multiple restaurants provided by Datafiniti's Business Database. The dataset includes the category, name, address, city, state, menu information, price range, and more for each pizza restaurant across all states from the USA.
 
 In this project, we have explored the data taken from [Kaggle](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell) and have performed Extraction Transformation and Loading using Python pandas.
 
 Original [dataset](../Resources/Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv) from Kaggle had following fields.
+
+Original Meta Data
+[raw_meta_data](Images/raw_meta_data.png)
+
+With the objective of answering below questions, we have performed cleaning  of this original data set at different stages as below.
 ```
-pizza_data_raw.columns
+1)How many different types of pizzas are available in Datafinity stores?
 
-Index(['id', 'dateAdded', 'dateUpdated', 'address', 'categories',
-       'primaryCategories', 'city', 'country', 'keys', 'latitude', 'longitude',
-       'menuPageURL', 'menus.amountMax', 'menus.amountMin', 'menus.currency',
-       'menus.dateSeen', 'menus.description', 'menus.name', 'name',
-       'postalCode', 'priceRangeCurrency', 'priceRangeMin', 'priceRangeMax',
-       'province'],
-      dtype='object')
-```
+2)How many pizza restaurants are available in each states for Datafinity stores?
 
-With the objective of answering below questsions, we have performed cleaning  of this original data set at different stages as below.
-```
-1)How many different types of pizzas are available?
+3)Which is the cheapest type of pizza sold in Datafinity stores?
 
-2)How many pizza restaurants are available?
+4)Which is the most expensive pizza sold in Datafinity stores?
 
-3)Which is the cheapest type of pizza sold?
-
-4)Which is the most expensive pizza sold?
-
-5)which provice has the maximum number of pizza restaurants?
+5)which state has the maximum number of pizza restaurants?
 
 6)Which city has the maximum number of restaurants?
 
-7)Which is the cheapest and most expesive province for pizza?
+7)Which is the cheapest and most expesive state for pizza?
 
 8)Which is the cheapest and most expensive city for pizza?
 
-9)Which is the most popular and leasr popular pizza?
+9)Which is the most popular and least popular pizza?
 
 10)Which all restaurant offer vegg pizzas based on description?
 
 11)Which all categories of pizzas's are popular?
 
-12)Which days of the week certains pizzas's are availabe?
+12)Which days of the week certains pizzas's are availabe in Datafinity restaurants?
 
-13)Are any of restaurants identified as best restaurants of the state?
+13)Are any of the restaurants identified as the best restaurants of the state?
 
-14)Any correlation between between rating found between restaurants of every state against other restaurants of the same state?
+14)Any correlation between rating and price level of the top restaurants in each state vs. Datafinity restaurants of the same state?
 
 ```
 # Extract
 
  - Restaurants and Pizza Data from [Kaggle](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell).
  
-   Following columns were identified for extraction of data from the original dataset.
+   Following columns were identified for extraction from the original dataset.
    
    ![meta-data](Images/meta_data.png)
    
- - Additional information like, restaurant name, rating, price_level were extracted from [Google API](https://developers.google.com/places/web-service/details).
+ - Additional information like, restaurant name, [rating](https://developers.google.com/places/web-service/details), [price_level](https://developers.google.com/places/web-service/details) were extracted from [Google API](https://developers.google.com/places/web-service/details).
  
  - Another dataset of best restaurant from each state for all 50 states in USA were extracted from [Daily Meals](https://www.thedailymeal.com/eat/best-pizza-every-state-slideshow).
 

@@ -22,7 +22,7 @@ create table restaurant (
              longitude float not null,
              city varchar(50) not null,
              state varchar(20) not null,
-	         categories text[] not null,
+	         categories varchar not null,
 	         price_level int ,
 	         rating int
              );
@@ -35,7 +35,7 @@ create table pizza (
 	      pizza_description varchar not null,
 	      maximum_amount float not null,
 	      minimum_amount float not null,
-	      pizza_dates text[] not null
+	      pizza_dates varchar not null
           );
 		  
 

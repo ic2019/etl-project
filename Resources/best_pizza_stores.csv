@@ -1,51 +1,51 @@
-restaurant_name,city,state
-Bottega Café,Birmingham,Alabama
-Moose’s Tooth Pub and Pizzeria,Anchorage,Alaska
-Pizzeria Bianco,Phoenix,Arizona
-Wood Stone Craft Pizza & Bar,Fayetteville,Arkansas
-Tony’s Pizza Napoletana,San Francisco,California
-Pizzeria Locale,Denver,Colorado
-Frank Pepe Pizzeria Napoletana,New Haven,Connecticut
-The Wood Fired Pizza Shop,Newark,Delaware
-Scuola Vecchia Pizza e Vino,Delray Beach,Florida
-O4W Pizza,Duluth,Georgia
-J.J. Dolan’s,Honolulu,Hawaii
-Guido’s Original New York Style Pizza,Boise,Idaho
-Pequod’s,Chicago,Illinois
-Diavola,Indianapolis,Indiana
-Gusto Pizza Co.,Des Moines,Iowa
-AJ’s NY Pizzeria,Topeka,Kansas
-Garage Bar,Louisville,Kentucky
-Pizza Domenica,New Orleans,Louisiana
-Micucci Grocery Store,Portland,Maine
-Inferno,Darnestown,Maryland
-Area Four,Cambridge,Massachusetts
-Buddy’s Pizza,Detroit,Michigan
-Pizzeria Lola,Minneapolis,Minnesota
-TriBecca Allie Café,Sardis,Mississippi
-Imo’s,St. Louis,Missouri
-Eugene’s,Glasgow,Montana
-Zio’s,Omaha,Nebraska
-Pizza Rock,Las Vegas,Nevada
-Tilton House of Pizza,Tilton,New Hampshire
-Razza,Jersey City,New Jersey
-Il Vicino Wood Oven Pizza,Albuquerque,New Mexico
-John’s of Bleecker Street,New York City,New York
-Pizzeria Omaggio,Charlotte,North Carolina
-Blackbird Woodfire,Fargo,North Dakota
-Crust,Cleveland,Ohio
-Empire Slice House,Oklahoma City,Oklahoma
-Ken’s Artisan Pizza,Portland,Oregon
-Pizzeria Vetri,Philadelphia,Pennsylvania
-Al Forno,Providence,Rhode Island
-Monza Pizza,Charleston,South Carolina
-Thatzza Pizza,Aberdeen,South Dakota
-Hog & Hominy,Memphis,Tennessee
-Home Slice Pizza,Austin,Texas
-Settebello,Salt Lake City,Utah
-Pizzeria Verita,Burlington,Vermont
-Pupatella Neapolitan Pizza,Arlington,Virginia
-Serious Pie,Seattle,Washington
-Lola’s,Charleston,West Virginia
-Zaffiro’s Pizza,Milwaukee,Wisconsin
-Bella Fuoco Wood Fired Pizza,Cheyenne,Wyoming
+restaurant_name,city,state,rating,address,price_level,zip_code
+Bottega Café,Birmingham,Alabama,4.7,2240 Highland Ave,3.0,35205
+Moose’s Tooth Pub and Pizzeria,Anchorage,Alaska,4.7,3300 Old Seward Hwy,2.0,99503
+Pizzeria Bianco,Phoenix,Arizona,4.4,623 E Adams St,2.0,85004
+Wood Stone Craft Pizza & Bar,Fayetteville,Arkansas,4.4,3619 Mall Ave,2.0,72703
+Tony’s Pizza Napoletana,San Francisco,California,4.5,1570 Stockton St,2.0,94133
+Pizzeria Locale,Denver,Colorado,4.6,550 Broadway,1.0,80203
+Frank Pepe Pizzeria Napoletana,New Haven,Connecticut,4.6,157 Wooster St,2.0,06511
+The Wood Fired Pizza Shop,Newark,Delaware,4.8,140 E Cleveland Ave,2.0,19711
+Scuola Vecchia Pizza e Vino,Delray Beach,Florida,4.5,522 E Atlantic Ave,2.0,33483
+O4W Pizza,Duluth,Georgia,4.5,3117 Main St,2.0,30096
+J.J. Dolan’s,Honolulu,Hawaii,4.6,-NA-,2.0,
+Guido’s Original New York Style Pizza,Boise,Idaho,4.7,235 N 5th St,1.0,83702
+Pequod’s,Chicago,Illinois,4.6,-NA-,2.0,
+Diavola,Indianapolis,Indiana,4.6,1134 E 54th St,2.0,46220
+Gusto Pizza Co.,Des Moines,Iowa,4.4,1905 Ingersoll Ave,2.0,50309
+AJ’s NY Pizzeria,Topeka,Kansas,4.6,1930 SW Westport Dr,2.0,66604
+Garage Bar,Louisville,Kentucky,4.3,700 E Market St,2.0,40202
+Pizza Domenica,New Orleans,Louisiana,4.6,4933 Magazine St,2.0,70115
+Micucci Grocery Store,Portland,Maine,4.6,86 Middle St,3.0,04101
+Inferno,Darnestown,Maryland,4.5,12207 Darnestown Rd,2.0,20878
+Area Four,Cambridge,Massachusetts,4.5,500 Technology Square,2.0,02139
+Buddy’s Pizza,Detroit,Michigan,4.5,17125 Conant St,2.0,48212
+Pizzeria Lola,Minneapolis,Minnesota,4.7,5557 Xerxes Ave S,2.0,55410
+TriBecca Allie Café,Sardis,Mississippi,4.7,216 S Main St,2.0,38666
+Imo’s,St. Louis,Missouri,4.6,-NA-,2.0,
+Eugene’s,Glasgow,Montana,4.6,-NA-,2.0,
+Zio’s,Omaha,Nebraska,4.6,-NA-,2.0,
+Pizza Rock,Las Vegas,Nevada,4.5,201 N 3rd St,2.0,89101
+Tilton House of Pizza,Tilton,New Hampshire,4.8,298 Main St,2.0,03276
+Razza,Jersey City,New Jersey,4.5,275 Grove St,2.0,07302
+Il Vicino Wood Oven Pizza,Albuquerque,New Mexico,4.6,3403 Central Ave NE,2.0,87106
+John’s of Bleecker Street,New York City,New York,4.6,278 Bleecker St,2.0,10014
+Pizzeria Omaggio,Charlotte,North Carolina,4.7,1055 Metropolitan Ave #130,2.0,28204
+Blackbird Woodfire,Fargo,North Dakota,4.6,206 Broadway N,2.0,58102
+Crust,Cleveland,Ohio,4.5,2258 Professor Ave,1.0,44113
+Empire Slice House,Oklahoma City,Oklahoma,4.6,-NA-,2.0,
+Ken’s Artisan Pizza,Portland,Oregon,4.6,304 SE 28th Ave,2.0,97214
+Pizzeria Vetri,Philadelphia,Pennsylvania,4.6,1615 Chancellor St,2.0,19103
+Al Forno,Providence,Rhode Island,4.6,577 S Water St,2.0,02903
+Monza Pizza,Charleston,South Carolina,4.6,-NA-,2.0,
+Thatzza Pizza,Aberdeen,South Dakota,4.6,20 6th Ave SW Ste 4,1.0,57401
+Hog & Hominy,Memphis,Tennessee,4.5,707 W Brookhaven Cir,2.0,38117
+Home Slice Pizza,Austin,Texas,4.7,1415 S Congress Ave,2.0,78704
+Settebello,Salt Lake City,Utah,4.6,-NA-,2.0,
+Pizzeria Verita,Burlington,Vermont,4.7,156 St Paul St,3.0,05401
+Pupatella Neapolitan Pizza,Arlington,Virginia,4.6,5104 Wilson Blvd,2.0,22205
+Serious Pie,Seattle,Washington,4.4,401 Westlake Ave N,2.0,98109
+Lola’s,Charleston,West Virginia,4.6,-NA-,2.0,
+Zaffiro’s Pizza,Milwaukee,Wisconsin,4.5,1724 N Farwell Ave,2.0,53202
+Bella Fuoco Wood Fired Pizza,Cheyenne,Wyoming,4.6,2115 Warren Ave,2.0,82001
