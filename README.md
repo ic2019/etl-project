@@ -69,11 +69,11 @@ With the objective of answering below questsions, we have performed cleaning  of
   - Selected data had NaN values for pizza description (63%). As pizza description was considered an important feature for determining the price of pizza, decided to remove NaN values from whole dataset for those null rows.  
   - Before Cleaning
   
-  !(Before Cleaning)[Images/info.png]
+  ![Before Cleaning](Images/info.png)
   
   - After Cleaning.
   
-  !(After Cleaning)[Images/info-after-nan.png]
+  ![After Cleaning](Images/info-after-nan.png)
   
   - Capitalized pizza description column
   
