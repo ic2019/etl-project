@@ -20,4 +20,15 @@ select state, count(name) as "store count per state"
 		group by state
 		order by "store count per state" desc;
 
+------ Which is the cheapest type of pizza sold in Datafinity stores by store names?-------
+select r.name, min(p.minimum_amount) as "Cheapest Price"
+        from restaurant r
+		inner join pizza p
+		on r.id = p.restaurant_id
+		group by r.name
+		order by "Cheapest Price" desc;
+		
+
+		
+
 

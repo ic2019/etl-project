@@ -6,12 +6,13 @@ This is a list of over 3,500 pizzas from multiple restaurants provided by Datafi
 
 In this project, we have explored the data taken from [Kaggle](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell) and have performed Extraction Transformation and Loading using Python pandas.
 
-Original [dataset](../Resources/Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv) from Kaggle had following fields.
+Original [dataset](Resources/Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv) from Kaggle had following fields.
 
 Original Meta Data
 [raw_meta_data](Images/raw_meta_data.png)
 
-With the objective of answering below questions, we have performed cleaning  of this original data set at different stages as below.
+With the objective of answering below questions, we have performed [Data Extraction/Cleaning/Transformation and Loading](scripts/etl_data.ipynb)  of this original data set as below.
+
 ```
 1)How many different types of pizzas are available in Datafinity stores?
 
@@ -42,7 +43,7 @@ With the objective of answering below questions, we have performed cleaning  of 
 14)Any correlation between rating and price level of the top restaurants in each state vs. Datafinity restaurants of the same state?
 
 ```
-# Extract
+# [Extract](scripts/etl_data.ipynb)
 
  - Restaurants and Pizza Data from [Kaggle](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell).
  
@@ -54,18 +55,19 @@ With the objective of answering below questions, we have performed cleaning  of 
  
  - Another dataset of best restaurant from each state for all 50 states in USA were extracted from [Daily Meals](https://www.thedailymeal.com/eat/best-pizza-every-state-slideshow).
 
-# Transform
+# [Transform](scripts/etl_data.ipynb)
 
 ### Cleaning
 
-  - Selected data had NaN values for pizza description (63%). As pizza description was considered an important feature for determining the price of pizza, decided to remove NaN values from whole dataset for those null rows.  
+  - Selected data had NaN values for pizza description (63%). As pizza description was considered an important feature for determining the price of pizza, we decided to remove NaN values from whole dataset for those null rows.
+
   - Before Cleaning
   
-  ![Before Cleaning](Images/info.png)
+  - ![Before Cleaning](Images/info.png)
   
   - After Cleaning.
   
-  ![After Cleaning](Images/info-after-nan.png)
+  - ![After Cleaning](Images/info-after-nan.png)
   
   - Capitalized pizza description column
   
@@ -73,7 +75,17 @@ With the objective of answering below questions, we have performed cleaning  of 
   
   - Removed duplicate rows.
 
-### Transform
+  - Columns like postalCode and provice were renamed by zip_code and state as they are told in US.
+
+  - Removed outliers for maximum and minimum amount for pizzas. Ideally, there should be only one amount for a pizza item, but sometimes, same pizza can be sold in slices also and that can result in lower values of pizza amount. We have replaced any 0 or values above 50 with mean values of minimum and maximum of respective amount. As this dataset is containing transactional data as per Kaggle but the data pertaining to pizzas in the menu of different Datafinity restaurants.
+
+  - ![pizza-amount-with-outliers](Images/stats.png)
+
+    After cleaning
+
+  - ![pizza-amount-after-cleaning](Images/stats-after-cleaning.png)
+
+### [Transform](scripts/etl_data.ipynb)
 
 #### Restaurant
 
@@ -83,7 +95,7 @@ With the objective of answering below questions, we have performed cleaning  of 
   
   - ![restaurant](Images/restaurant.png)
   
-  - Then additional data was collected for every restaurnat usinng it's address, latitude and longitude from Google API Places.
+  - Then additional data was collected for every restaurnat like restaurant name, rating, and price levels using it's address, latitude and longitude from Google API Places. For some restaurants, data was not available in Google API and name was replaced by -NA- and rating and price_level was replaced by mean of rating and mean of price_level as all restaurants belong to one company.
   
   - ![revised-restaurant](Images/restaurant-after-api.png)
 
@@ -92,6 +104,11 @@ With the objective of answering below questions, we have performed cleaning  of 
   - Pizza - ['id', 'menus.name', 'menus.description', 'menus.amountMax', 'menus.amountMin', 'menus.dateSeen']
   
   - All duplicate rows were removed keeping keeping unique records of restaurant id and pizza name.
+
+  - All column names were replaced with more user friendly names as below.
+
+  - ![pizza-after-cleaning](Images/pizza-after-cleaning.png)
+
 
 #### Best Pizza Restaurants by State
 
@@ -103,7 +120,7 @@ With the objective of answering below questions, we have performed cleaning  of 
 
 ### ERD
 
-  ![pizza-db](Images/PIZZA_DB.png)
+  - ![pizza-db](Images/PIZZA_DB.png)
   
   - In postgreSQL, schema was created for pizza_db database and tables for storing restaurant, pizza and best-pizza-stores data.
 
@@ -119,4 +136,39 @@ With the objective of answering below questions, we have performed cleaning  of 
 ### Verifying the data in PostgreSQL pizza_db.
 
    - Here's the [link](sql/query.sql) to all the sql for querying the database for verification.
+
+### Answere to some of the questions
+
+  - How many different types of pizzas are available in Datafinity stores?
+
+  - ![ans1](Images/ans1.png)
+
+  - How many pizza restaurants are available in each states for Datafinity stores?
+
+  - ![ans2](Images/ans2.png)
+
+  - Which is the cheapest type of pizza sold in Datafinity stores by store names?
+    
+    ![ans3](Images/ans3.png)
+
+  - Which is the most expensive pizza sold in Datafinity stores?
+
+    ![ans4](Images/ans4.png)
+
+  - Which state has the maximum number of pizza restaurants? (Top 5)
+
+    ![ans5](Images/ans5.png)
+
+  - Which is the most popular pizza by state by selling stores?
+    
+    ![ans6](Images/ans6.png)
+
+  - Which all restaurant offer vegg pizzas based on description?
+    
+    ![ans7](Images/ans7.png)
+
+  - Which are the top rated restaurants((top 5)?
+
+   ![ans8](Images/ans8.png)
+
 
