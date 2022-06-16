@@ -4,7 +4,7 @@ jsonschema==3.0.1
 jupyter-client==5.3.1
 jupyter-console==6.0.0
 jupyter-core==4.5.0
-notebook==6.0.0
+notebook==6.4.12
 numpy==1.16.4
 pandas==0.25.0
 psycopg2==2.7.6.1
